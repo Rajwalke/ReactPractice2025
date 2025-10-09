@@ -1,5 +1,6 @@
 // const h1=React.createElement('h1',{id:"header"},"Namaste React");
-
+import React from "react";
+import ReactDOM from 'react-dom/client'
 // import React from "react";
 
 // const root=ReactDOM.createRoot(document.getElementById('root'));
@@ -26,7 +27,8 @@ const h1=React.createElement('div',{id:'headparent'},[
     React.createElement('div',{id:'child1'},[
         React.createElement('h1',{id:"heading1"},"Hello1"),
         React.createElement('h1',{id:'heading2'},"Hello2")
-    ])
+    ]
+)
 ),
     React.createElement('div',{id:"parent2"},
         React.createElement('div',{id:'child2'},
@@ -37,7 +39,8 @@ const h1=React.createElement('div',{id:'headparent'},[
         )
     )
 
-])
+]
+)
 
 
 const root=ReactDOM.createRoot(document.getElementById('root'));
